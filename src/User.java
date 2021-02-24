@@ -5,6 +5,7 @@ public class User {
     private String name;
     private String[] skills;
     private Car car;
+    private Family family;
 
     public User(){
 
@@ -25,11 +26,20 @@ public class User {
 
     }
 
-    public User (int id, String name, String[] skills, String model, int yar, int price){
+    public User (int id, String name, String[] skills, String model, int yar, int price, String color){
         this.id=id;
         this.name=name;
         this.skills=skills;
-        this.car=new Car(model, yar, price);
+        this.car=new Car(model, yar, price, color);
+
+
+    }
+    public User (int id, String name, String[] skills, Car car, Family family){
+        this.id=id;
+        this.name=name;
+        this.skills=skills;
+        this.car=car;
+        this.family=family;
 
     }
 
@@ -67,8 +77,15 @@ public class User {
         this.car=car;
     }
 
+    public Family getFamily(){
+        return family;
+    }
+    public void setFamily(Family family){
+        this.family=family;
+    }
+
     public String toString(){
-        return "id:"+id+" "+"name-"+name+" "+"skills:"+ Arrays.toString(skills)+" "+"Car:"+car;
+        return "id:"+id+" "+"name-"+name+" "+"skills:"+ Arrays.toString(skills)+" "+"Car:"+car+" "+"Family:"+family;
     }
 
 
