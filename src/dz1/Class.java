@@ -1,3 +1,5 @@
+package dz1;
+
 public class Class {
 
     public static void main(String[] args) {
@@ -26,9 +28,6 @@ public class Class {
         Family family2 = new Family("Oleg", "Nina", "Lilya", new String[] {"vlad"});
         User user5= new User(5,"Tolik", skills, car1, family2);
         System.out.println(user5);
-
-
-
 
     }
 }

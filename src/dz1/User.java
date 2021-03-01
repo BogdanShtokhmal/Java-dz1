@@ -1,3 +1,5 @@
+package dz1;
+
 import java.util.Arrays;
 
 public class User {
@@ -85,7 +87,7 @@ public class User {
     }
 
     public String toString(){
-        return "id:"+id+" "+"name-"+name+" "+"skills:"+ Arrays.toString(skills)+" "+"Car:"+car+" "+"Family:"+family;
+        return "id:"+id+" "+"name-"+name+" "+"skills:"+ Arrays.toString(skills)+" "+"dz1.Car:"+car+" "+"dz1.Family:"+family;
     }
 
 

@@ -1,3 +1,5 @@
+package dz1;
+
 public class Car {
     private String model;
     private int yar;
