@@ -1,4 +1,4 @@
-package dz3;
+package dz3.part1;
 
 public class Tie extends Closes implements Mencloses {
     @Override

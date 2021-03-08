@@ -1,8 +1,6 @@
-package dz3;
+package dz3.part1;
 
-public class T_shirt extends Closes implements WomenCloses, Mencloses {
-
-
+public class Pants extends Closes implements Mencloses,WomenCloses {
     @Override
     public void DressMen() {
         System.out.println("Man dressed");

@@ -1,4 +1,4 @@
-package dz3;
+package dz3.part1;
 
 public enum SizeCloses {
     XXS(38),
@@ -29,5 +29,4 @@ public enum SizeCloses {
                 "} " + super.toString();
     }
 
-    public abstract void getDescription();
 }

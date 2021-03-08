@@ -1,4 +1,4 @@
-package dz3;
+package dz3.part1;
 
 public abstract class Closes  {
     private SizeCloses size;
